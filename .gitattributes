@@ -10,3 +10,8 @@
 *.mesh text eol=lf
 *.txt text eol=lf
 LightingData.asset -text
+
+
+# Exclude third-party plugins from GitHub stats
+Assets/TextMesh[[:space:]]Pro/**  linguist-vendored
+
